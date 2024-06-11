@@ -1,0 +1,144 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Lighter gray background */
+    color: #333; /* Slightly darker gray text color */
+    line-height: 1.6;
+}
+
+h2 {
+    color: #008080; /* Teal color for headings */
+    font-size: 24px; /* Reduced font size for headings */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Navigation */
+nav {
+    background-color: #f9f9f9; /* Lighter gray background for navigation */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Slightly darker gray text color for navigation links */
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #006666; /* Darker teal color on hover */
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    background-color: #fff; /* White background for sections */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Slightly larger shadow for depth */
+    margin-bottom: 30px;
+}
+
+/* Form */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Lighter gray border color */
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button[type="submit"] {
+    background-color: #008080; /* Teal color for buttons */
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+form button[type="submit"]:hover {
+    background-color: #006666; /* Darker teal color on hover */
+    transform: translateY(-2px);
+}
+
+/* Address */
+address {
+    font-style: normal;
+    margin-bottom: 15px;
+    background-color: #f9f9f9; /* Lighter gray background for address */
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    h2 {
+        font-size: 20px; /* Adjusting heading size for smaller screens */
+    }
+}
+/* Header */
+header {
+    background-color: #008080; /* Teal background color for the header */
+    padding: 20px 0; /* Padding on the top and bottom */
+    text-align: center; /* Center-aligning the content within the header */
+}
+
+.navbar-brand {
+    color: #fff; /* White color for the navbar brand */
+    font-size: 24px; /* Font size for the navbar brand */
+    font-weight: bold; /* Bold font weight for the navbar brand */
+}
+
+.navbar-brand:hover {
+    color: #f9f9f9; /* Lighter white color on hover */
+}
+
+.navbar-nav .nav-link {
+    color: #f9f9f9; /* White color for the navbar links */
+    font-size: 16px; /* Font size for the navbar links */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f0f0f0; /* Slightly lighter white color on hover */
+}

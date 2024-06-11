@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Networking and Software Communications Learning Platform</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="{{ url_for('index') }}">Networking and Software Communications</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <section>
+            <h2>Lessons on Networking Protocols and Security</h2>
+            <ul>
+                <li>Explore various networking protocols and security measures to ensure robust communication.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Interactive Exercises</h2>
+            <p>Engage in interactive exercises to apply wired and wireless networking concepts.</p>
+        </section>
+
+        <section>
+            <h2>Articles and Resources</h2>
+            <p>Access the latest articles and resources covering cutting-edge technologies and tools in the field of communications.</p>
+        </section>
+
+        <section>
+            <h2>Interface for Open-Source Software and Tools</h2>
+            <p>Utilize an interface for open-source software and tools to develop customized solutions.</p>
+        </section>
+    </div>
+
+</body>
+</html>
